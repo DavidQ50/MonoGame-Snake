@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{DDE37F7B-0CEC-419E-8572-7B5471554374}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoEngine", "monoEngine\MonoEngine\MonoEngine.shproj", "{21B5F966-179F-4871-A25A-FE80FAE9AFCF}"
@@ -16,5 +19,14 @@ Global
 		{DDE37F7B-0CEC-419E-8572-7B5471554374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE37F7B-0CEC-419E-8572-7B5471554374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE37F7B-0CEC-419E-8572-7B5471554374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		monoEngine\MonoEngine\MonoEngine.projitems*{21b5f966-179f-4871-a25a-fe80fae9afcf}*SharedItemsImports = 13
+		SnakeShared\SnakeShared\SnakeShared.projitems*{23d7538d-5b16-4996-b403-39e690723e54}*SharedItemsImports = 13
+		monoEngine\MonoEngine\MonoEngine.projitems*{dde37f7b-0cec-419e-8572-7b5471554374}*SharedItemsImports = 5
+		SnakeShared\SnakeShared\SnakeShared.projitems*{dde37f7b-0cec-419e-8572-7b5471554374}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
